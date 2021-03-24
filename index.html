@@ -161,6 +161,7 @@ background: linear-gradient(90deg, rgba(170,170,170,1) 0%, rgba(42,42,42,1) 100%
   text-decoration: none;
    }
   
+  <script>
 var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
@@ -191,6 +192,7 @@ var TxtType = function(el, toRotate, period) {
         if (!this.isDeleting && this.txt === fullTxt) {
         delta = this.period;
         this.isDeleting = true;
+       </script>
   
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
